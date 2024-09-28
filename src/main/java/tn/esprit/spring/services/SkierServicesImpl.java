@@ -88,6 +88,9 @@ public class SkierServicesImpl implements ISkierServices {
             skier.setPistes(pisteList);
         }
 
+
+        
+
         return skierRepository.save(skier);
     }
 
